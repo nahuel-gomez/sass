@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* HEADER */
+/*
+
+header {
+    width: 100%;
+    height: 145px;
+    margin-top: 0;
+    background : rgb(218, 235, 211);
+    display: flex;
+   
+    
+    
+}
+
+ /*Logotipo y su nombre */
+/*
+.logo {
+    width: 40%;
+    height: 145px;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.imagenLogo {
+    width: 100px;
+    height: 100px;
+
+}
+
+.logoTitulo {
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font: 400;
+}
+
+/*nav = links de navegación*/
+/*
+nav {
+    width: 60%;
+    height: 145px;
+    
+    
+}
+
+nav ul {
+    width: 100%;
+    height: 145px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/* FIN HEADER */
+
+
+/* BOTON PARA SUBIR */
+/*
+.parriba a img {
+    position: fixed;
+    left: 94%;
+}
+
+/* FIN BOTON DE SUBIR */
+
+/* FOOTER */
+/*
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: rgb(195, 214, 114);
+}
+
+.cosasFooter {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+footer div {
+    margin: 10px;
+    text-align: center;
+    text-transform:capitalize;
+}
+
+.footerAuspiciantes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerAuspiciantesLogos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footerAuspiciantesTit {
+    margin-bottom:30px;
+}
+
+.logosRobados {
+    width: 70px;
+    height: 70px;
+}
+
+
+.footerRedes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerRedes ul {
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.footerRedes ul li{
+    margin: 7%;
+}
+
+/*FIN FOOTER */
+
+
+
+/* HOJA: CONTACTOS */
+/* Secction. Parte donde se colocan los datos de cliente */
+/*
+.mateContacto {
+    /*padding-top: 160px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../imágenes/mate-chill.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+/*
+
+.recuadritoBlanco {
+    width: 550px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 130px;
+    padding: 10px;
+    background-color: rgba(240, 255, 255, 0.5);
+    border: solid 2px aliceblue;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.titulosContactos {
+    text-align: center;
+    
+}
+
+.titulosContactos h2 {
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+.camposContactosNomAp form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.camposContactosEmail form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.camposContactosConfEmail form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.camposContactosTelef form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.camposContactosMensaje form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.campitos {
+    width: 50%;
+    margin-right: 30px;
+}
+
+
+.campitoMensaje {
+    width: 50%;
+    margin-right: 30px;
+
+}
+
+.recuadritoBlanco button {
+    width: 60%;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    height: 30px;
+    margin-left: 20%;
+}
+
+.recuadritoBlanco button a {
+    text-decoration: none;
+    font-size: 17px;
+}

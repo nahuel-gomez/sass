@@ -54,8 +54,22 @@ header {
     margin-top: 0;
     background : rgb(218, 235, 211);
     display: flex;
+    animation-name: headerLoco;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 
 }
+
+@keyframes headerLoco {
+    0% {background: rgb(218, 235, 211);}
+    25% {background: gray;}
+    50% {background: coral;}
+    75% {background: black;}
+    100% {background: sienna;}
+    
+}
+
 
  /*Logotipo y su nombre */
 

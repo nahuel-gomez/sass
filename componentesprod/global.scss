@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.bodyProductos {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 145px 300px 700px 50px 225px;
+    
+}
+
+.botonParriba {
+    width: 90px;
+    height: 80px;
+    position: fixed;
+    z-index: 3;
+    right: 2%;
+    bottom: 6%;
+    animation: backInDown; 
+    animation-duration: 2s;     
+}

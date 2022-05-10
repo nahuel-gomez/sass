@@ -1,0 +1,130 @@
+header {
+    width: 100%;
+    height: 145px;
+    margin-top: 0;
+    background : rgb(218, 235, 211);
+    display: flex;
+    animation-name: headerLoco;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headerLoco {
+    0% {background: rgb(218, 235, 211);}
+    25% {background: gray;}
+    50% {background: coral;}
+    75% {background: black;}
+    100% {background: sienna;}    
+}
+
+.logo {
+    width: 40%;
+    height: 145px;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__imagen {
+        width: 100px;
+        height: 100px;    
+    }
+
+    &__Titulo {
+        font-family: 'Alumni Sans Inline One', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font: 400;
+    }
+}
+
+nav {
+    width: 60%;
+    height: 145px;
+
+    ul {
+        width: 100%;
+        height: 145px;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        font-family: 'Alumni Sans Inline One', cursive;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        list-style: none;
+
+        li a{
+            text-decoration: none;
+        }    
+    }    
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 200px 25px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: rgb(195, 214, 114);
+
+    .cosasFooter {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .footerAuspiciantes {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .footerAuspiciantesTit {
+                margin-bottom: 30px;
+            }
+
+            .footerAuspiciantesLogos {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+                .logosRobados {
+                    width: 70px;
+                    height: 70px;
+                }                
+            }        
+        } 
+        
+        .footerRedes {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+
+                li{
+                    margin: 7%;
+                }                   
+            }
+        }
+    }
+
+    div {    
+        text-align: center;
+        text-transform:capitalize;
+    }
+}

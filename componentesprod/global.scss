@@ -7,9 +7,9 @@
 .bodyProductos {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 145px 300px 700px 50px 225px;
-    
+    grid-template-rows: 145px 300px 700px 50px 225px;    
 }
+
 
 .botonParriba {
     width: 90px;
@@ -20,4 +20,31 @@
     bottom: 6%;
     animation: backInDown; 
     animation-duration: 2s;     
+}
+
+@mixin fuente {
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+@mixin tarjetas {
+    width: 310px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    @include fuente;    
+}
+
+@mixin imgPrincipal ($img){
+    width: 100%;
+    height: 300px;
+    background-image: $img;
+    background-position: center;
+    background-size: cover;
+    @include fuente;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
